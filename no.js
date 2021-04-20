@@ -1,1 +1,0 @@
-let jump = document.getElementById("jump");

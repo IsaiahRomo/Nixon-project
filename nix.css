@@ -1,0 +1,23 @@
+img.nixon {
+    height: 30em;
+    box-shadow: 0em 0em 1em red;
+}
+img.george {
+    height: 30em;
+    box-shadow: 0em 0em 1em blue;
+}
+.Nixon {
+    float: left;
+    width: 50%;
+    font-family: Georgia, serif;
+}
+.George {
+    font-family: Georgia, serif;
+}
+.title {
+    font-family: Georgia, serif;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
