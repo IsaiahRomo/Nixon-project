@@ -35,16 +35,15 @@
     
         
         <!-- Custom styles for this template -->
+    
         <link href="cover.css" rel="stylesheet">
         <link href="nix.css" rel="stylesheet">
-        <link href="no.js" rel="script">
     </head>
     <body class="d-flex h-100 text-center text-white bg-dark">
         
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="mb-auto">
             <div id="nav">
-                <img class="logo" src="">
                 <nav class="nav nav-masthead justify-content-center float-md-end">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 <a class="nav-link" href="#">Contact</a>
@@ -59,17 +58,17 @@
                   <h1>Vote Now</h1>
                 </div>
                 <div class="Nixon">
-                    <figure>
-                        <img class="nixon" src="Richard-M-Nixon-1969.jpeg"/>
+                    <figure id="mouseTarget">
+                        <img class="nixon" id="unorderedList" src="Richard-M-Nixon-1969.jpeg"/>
                     </figure>
                     <p>   
                         Richard M. Nixon
                     </p>
                     <div class="btns">
-                    <button class='btns_more' onclick="">Vote</button>
+                        <button class='btns_more' id="nixvo" onmousemove="nixen()" onmouseout="nixle()">Vote</button>
                     </div>
                 </div>
-                <div class="George">
+                <div class="George" id="no">
                     <figure id="jump">
                         <img class="george" src="george-mcgovern-2-300.jpeg"/>
                     </figure>
@@ -77,7 +76,7 @@
                         George McGovern
                     </p>
                     <div class="btns">
-                        <a href="https://youtu.be/dQw4w9WgXcQ"><button class='btns_more'>Vote</button></a>
+                        <a href="https://youtu.be/dQw4w9WgXcQ"><button class='btns_more' id="nixv" onmousemove="nixent()" onmouseout="nixlev()">Vote</button></a>
                     </div>
                 </div>
                 </div>
@@ -96,6 +95,6 @@
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+        <script src="no.js"></script>
   </body>
 </html>

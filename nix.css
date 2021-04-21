@@ -21,3 +21,9 @@ img.george {
     text-decoration: none;
     color: white;
 }
+#no {
+    cursor: not-allowed;
+}
+body {
+    background: linear-gradient(90deg, blue ,red);
+}
