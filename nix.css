@@ -13,6 +13,8 @@ img.george {
 }
 .George {
     font-family: Georgia, serif;
+    width: 50%;
+    float: right;
 }
 .title {
     font-family: Georgia, serif;
@@ -26,4 +28,10 @@ img.george {
 }
 body {
     background: linear-gradient(90deg, blue ,red);
+}
+#unorderedList {
+    list-style: none;
+}
+#gunorderedList {
+    list-style: none;
 }

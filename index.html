@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-100" id="contextno">
     <head>
             <!-- Required meta tags --> 
         <meta charset="utf-8">
@@ -40,17 +40,10 @@
         <link href="nix.css" rel="stylesheet">
     </head>
     <body class="d-flex h-100 text-center text-white bg-dark">
-        
+            <div class=“info”>
+                </div>
+                <span class=“container”></span>
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <header class="mb-auto">
-            <div id="nav">
-                <nav class="nav nav-masthead justify-content-center float-md-end">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link" href="#">Contact</a>
-                </nav>
-            </div>
-            </header>
-        
             <div class= 'container'>
                 <div class="container_content">
                 <div class="container_content_inner">
@@ -59,18 +52,24 @@
                 </div>
                 <div class="Nixon">
                     <figure id="mouseTarget">
-                        <img class="nixon" id="unorderedList" src="Richard-M-Nixon-1969.jpeg"/>
+                        <img class="nixon" src="Richard-M-Nixon-1969.jpeg"/>
+                        <ul id="unorderedList">
+
+                        </ul>
                     </figure>
                     <p>   
                         Richard M. Nixon
                     </p>
                     <div class="btns">
-                        <button class='btns_more' id="nixvo" onmousemove="nixen()" onmouseout="nixle()">Vote</button>
+                        <button class='btns_more' id="nixvo" onmousemove="nixen()" onmouseout="nixle()" onclick="alert(this.innerHTML)">Vote</button>
                     </div>
                 </div>
                 <div class="George" id="no">
-                    <figure id="jump">
+                    <figure id="gmouseTarget">
                         <img class="george" src="george-mcgovern-2-300.jpeg"/>
+                        <ul id="gunorderedList">
+
+                        </ul>
                     </figure>
                     <p>   
                         George McGovern
@@ -83,7 +82,6 @@
                 </div>
                  <div class="container_outer_img">
                  <div class="img-inner">
-                 <img src='City.jpeg'  alt="" class="container_img"/>
                        </div>
                      </div>
                   </div>
